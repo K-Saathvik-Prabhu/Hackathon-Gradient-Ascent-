@@ -269,7 +269,7 @@ model = SVC(kernel='linear', probability=True, C=1.0)
 model.fit(X_train, Y_train)
 
 
-NEWS_API_KEY = "4c378fc09c4b4d5d97f6b51fc32e11b1"
+NEWS_API_KEY = "insert api key here"
 
 def get_news():
     try:
@@ -351,7 +351,7 @@ def get_time():
     return response_text
 
 
-OPENWEATHER_API_KEY = "9de885d280ac7c25ee0f52a06992aae3"
+OPENWEATHER_API_KEY = "insert api key here"
 
 
 def get_weather(city="Vidyaranyapura"):
@@ -518,3 +518,4 @@ if __name__ == "__main__":
 
             else:
                 speak("I didn't understand that. Can you please rephrase or ask a different question?")
+
